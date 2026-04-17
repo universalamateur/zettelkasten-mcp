@@ -59,3 +59,6 @@ Thumbs.db
 # ChromaDB local data
 chroma/
 *.chroma/
+
+# uv (project uses Poetry per SPEC)
+uv.lock
