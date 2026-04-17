@@ -1,0 +1,26 @@
+# Sample Zettelkasten frontmatter schema for fixtures + integration tests.
+# Mirrors the shape described in AGENTS.md "Frontmatter contract".
+
+note:
+  required:
+    id:
+      type: string
+      format: kebab-case
+    type:
+      type: enum
+      values: [permanent, literature, project, index]
+    tags:
+      type: list[string]
+      source: .rag/tags.yaml
+      min: 1
+    created:
+      type: date
+      format: YYYY-MM-DD
+    source:
+      type: string
+  optional:
+    updated:
+      type: date
+      format: YYYY-MM-DD
+    related:
+      type: list[string]

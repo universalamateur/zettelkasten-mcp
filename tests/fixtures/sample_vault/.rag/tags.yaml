@@ -1,0 +1,26 @@
+# Controlled vocabulary for sample_vault fixtures.
+# The server does not yet cross-check tags against this file; kept here as a
+# future enhancement target and so the vault is self-describing.
+
+tags:
+  # methods & theory
+  - zettelkasten
+  - atomic-notes
+  - note-taking
+
+  # retrieval & embeddings
+  - rag
+  - semantic-search
+  - embeddings
+  - vector-store
+
+  # tools
+  - mcp
+  - ollama
+  - chromadb
+  - markdown
+
+  # principles
+  - local-first
+  - foss
+  - privacy
