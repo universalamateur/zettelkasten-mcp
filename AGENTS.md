@@ -39,7 +39,6 @@ zettelkasten-mcp/
 ├── CHANGELOG.md             # Keep-a-Changelog format
 ├── LICENSE                  # MIT
 ├── pyproject.toml           # Poetry + PEP 621
-└── .gitlab-ci.yml           # CI: lint, test, build, publish
 ```
 
 ## Language and tooling
