@@ -1,5 +1,9 @@
 # zettelkasten-mcp
 
+![Project logo](./logo.png)
+
+[Lead repository on GitLab](https://gitlab.com/universalamateur1/zettelkasten-mcp)
+
 > **Status:** Alpha. Core ingest / search / status functionality implemented and tested. See [CHANGELOG.md](CHANGELOG.md).
 
 MCP server for semantic search over markdown vaults with YAML frontmatter. Local RAG pipeline using [Ollama](https://ollama.com/) for embeddings and [ChromaDB](https://www.trychroma.com/) for vector storage. 100% FOSS, local-first, works offline.
